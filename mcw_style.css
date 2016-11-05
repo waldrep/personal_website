@@ -1,0 +1,35 @@
+
+body{
+	background: Lavender; /* For browsers that do not support gradients */
+		background: -webkit-linear-gradient(left top, Lavender, Cornsilk); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom right, Lavender, Cornsilk); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom right, Lavender, Cornsilk); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom right, Lavender, Cornsilk); /* Standard syntax */
+	margin:0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+a:link{
+	color:white;
+	stroke: 1px black;
+	text-decoration:none;
+	text-shadow: -2px 0 #000000,0 2px #000000,2px 0 #000000,0 -2px #000000;
+}
+#container{
+	width: 100%;
+	text-align: center;	
+}
+#content{
+	display: inline-block;
+}
+
+#content img{
+	max-width: 800px;
+}
+
+#funny
+{
+color: rgb(255, 255, 255);
+font-size: 100px;
+text-shadow: rgb(255, 255, 255) 0px 0px 5px, rgb(255, 255, 255) 0px 0px 10px, rgb(255, 255, 255) 0px 0px 15px, rgb(255, 45, 149) 0px 0px 20px, rgb(255, 45, 149) 0px 0px 30px, rgb(255, 45, 149) 0px 0px 40px, rgb(255, 45, 149) 0px 0px 50px, rgb(255, 45, 149) 0px 0px 75px;
+}
