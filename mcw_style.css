@@ -8,16 +8,40 @@ body{
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	height:100%;
+	font-family: "Open Sans", sans-serif;
 }
 a:link{
-	color:white;
-	stroke: 1px black;
-	text-decoration:none;
-	text-shadow: -2px 0 #000000,0 2px #000000,2px 0 #000000,0 -2px #000000;
+    color: #FF2167;
+    text-decoration: none;
+    font-weight: 600;
 }
+
+a:visited{
+    /*color: #FF5200;*/
+    color: #FF2167;
+}
+
+a:hover{
+    outline: 0 none;
+    text-decoration: underline;
+}
+
+a:focus{
+    outline: thin dotted #333;
+    outline-offset: -2px;
+}
+a:active{
+    color: #FF2167;
+}
+
+#mailing{
+	font-weight: 800;
+}
+
 #container{
 	width: 100%;
 	text-align: center;	
+	margin-bottom: 100px;
 }
 #content{
 	display: inline-block;
@@ -31,15 +55,77 @@ a:link{
 
 #funny
 {
-font-family: "Comic Sans MS";
+/*font-family: "Comic Sans MS";*/
+margin-top: .5em;
+margin-bottom: .5em;
+font-family: 'Comic Sans MS', sans-serif;
 color: white;
-font-size: 30px;
+font-size: 25px;
 text-shadow: rgba(255, 33, 103,0.9) 0px 0px 50px;
-transform: rotate(3deg);
+transform: rotate(2deg);
+}
+
+#funny h1
+{
+/*font-family: "Comic Sans MS";*/
+margin-top: .5em;
+margin-bottom: .5em;
+
+}
+
+.caption {
+	text-align: right;
+}
+
+.caption p{
+	margin-top: 0px;
+	font-size: 12px;
 }
 
 .content-item{
 	margin-top: 50px;
+	font-family: "Open Sans";
+}
+
+.explanation {
+	text-align: left;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.explanation h3{
+	font-size: 22px;
+}
+
+#aboutfloat{
+	float:left;
+}
+
+.explanation p{
+	font-size: 14px;
+}
+
+#about{
+	width: 60%;
+	display: inline-block;
+}
+#mepic{
+	display: inline;
+	float: right;
+	padding-top: 18px;
+}
+
+#Aravena{
+	width: 420px;
+	display: inline;
+}
+#AmericanPavilion{
+	display: inline;
+	width: 420px;
+	margin-bottom: 50px;
+}
+#twofer{
+	margin-top: 20px;
 }
 
 @media (max-width: 850px){
