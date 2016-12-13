@@ -52,6 +52,23 @@ a:active{
 	max-width: 860px;
 	height: auto;
 }
+#title
+{
+/*font-family: "Comic Sans MS";*/
+margin-top: .5em;
+margin-bottom: .5em;
+font-family: sans-serif;
+color: white;
+font-size: 25px;
+}
+
+#title h1
+{
+/*font-family: "Comic Sans MS";*/
+margin-top: .5em;
+margin-bottom: .5em;
+
+}
 
 #funny
 {
