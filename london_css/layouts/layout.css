@@ -120,6 +120,7 @@ a:active{
     text-align: center;
 
 }
+
 .l-box h1{
     font-size: 35px;
     color: black;
@@ -567,7 +568,6 @@ a:active{
 #essay a{
     text-align: left;
     width: 50px;
-    margin-left: 4.4em;
 
     
 }
@@ -624,3 +624,12 @@ a:active{
         font-size: 30px;
     }
 }
+
+@media screen and (max-width: 850px){
+    iframe{
+    max-width: 100% !important;
+    width: auto !important;
+    height: auto !important;
+    }
+}
+
