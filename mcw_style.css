@@ -1,15 +1,20 @@
 body{
-	background: Lavender; /* For browsers that do not support gradients */
-		background: -webkit-linear-gradient(left top, Lavender, Cornsilk); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(bottom right, Lavender, Cornsilk); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(bottom right, Lavender, Cornsilk); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(to bottom right, Lavender, Cornsilk); /* Standard syntax */
+	/*background: Lavender; /* For browsers that do not support gradients */
+	/*
+	background: -webkit-linear-gradient(left top, Lavender, Cornsilk); /* For Safari 5.1 to 6.0 */
+	/*background: -o-linear-gradient(bottom right, Lavender, Cornsilk); /* For Opera 11.1 to 12.0 */
+	/*background: -moz-linear-gradient(bottom right, Lavender, Cornsilk); /* For Firefox 3.6 to 15 */
+	/*background: linear-gradient(to bottom right, Lavender, Cornsilk); /* Standard syntax */
+	
+	background: Black;
 	margin:0;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	height:100%;
 	font-family: "Open Sans", sans-serif;
+	color: white;
 }
+
 a:link{
     color: #FF2167;
     text-decoration: none;
