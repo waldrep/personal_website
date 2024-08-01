@@ -1,0 +1,155 @@
+body{
+	background: Lavender; /* For browsers that do not support gradients */
+		background: -webkit-linear-gradient(left top, Lavender, Cornsilk); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom right, Lavender, Cornsilk); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom right, Lavender, Cornsilk); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom right, Lavender, Cornsilk); /* Standard syntax */
+	margin:0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height:100%;
+	font-family: "Open Sans", sans-serif;
+}
+a:link{
+    color: #FF2167;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:visited{
+    /*color: #FF5200;*/
+    color: #FF2167;
+}
+
+a:hover{
+    outline: 0 none;
+    text-decoration: underline;
+}
+
+a:focus{
+    outline: thin dotted #333;
+    outline-offset: -2px;
+}
+a:active{
+    color: #FF2167;
+}
+
+#mailing{
+	font-weight: 800;
+}
+
+#container{
+	width: 100%;
+	text-align: center;	
+	margin-bottom: 100px;
+}
+#content{
+	display: inline-block;
+	max-width: 860px;
+}
+
+#content img{
+	max-width: 860px;
+	height: auto;
+}
+#title
+{
+/*font-family: "Comic Sans MS";*/
+margin-top: .5em;
+margin-bottom: .5em;
+font-family: sans-serif;
+color: white;
+font-size: 25px;
+}
+
+#title h1
+{
+/*font-family: "Comic Sans MS";*/
+margin-top: .5em;
+margin-bottom: .5em;
+
+}
+
+#funny
+{
+/*font-family: "Comic Sans MS";*/
+margin-top: .5em;
+margin-bottom: .5em;
+font-family: 'Comic Sans MS', sans-serif;
+color: white;
+font-size: 25px;
+text-shadow: rgba(255, 33, 103,0.9) 0px 0px 50px;
+transform: rotate(2deg);
+}
+
+#funny h1
+{
+/*font-family: "Comic Sans MS";*/
+margin-top: .5em;
+margin-bottom: .5em;
+
+}
+
+.caption {
+	text-align: right;
+}
+
+.caption p{
+	margin-top: 0px;
+	font-size: 12px;
+}
+
+.content-item{
+	margin-top: 50px;
+	font-family: "Open Sans";
+}
+
+.explanation {
+	text-align: left;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.explanation h3{
+	font-size: 22px;
+}
+
+#aboutfloat{
+	float:left;
+}
+
+.explanation p{
+	font-size: 14px;
+}
+
+#about{
+	width: 60%;
+	display: inline-block;
+}
+#mepic{
+	display: inline;
+	float: right;
+	padding-top: 18px;
+}
+
+#Aravena{
+	width: 420px;
+	display: inline;
+}
+#AmericanPavilion{
+	display: inline;
+	width: 420px;
+	margin-bottom: 50px;
+}
+#twofer{
+	margin-top: 20px;
+}
+
+@media (max-width: 850px){
+	#funny{
+		font-size: 10px;
+	}
+	#content img{
+		max-width: 600px;
+	}
+
