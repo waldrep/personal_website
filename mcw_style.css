@@ -14,7 +14,9 @@ body{
 	font-family: "Open Sans", sans-serif;
 	color: white;
 }
-
+p{
+	text-align: left;
+}
 a:link{
     color: #FF2167;
     text-decoration: none;
